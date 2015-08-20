@@ -1,5 +1,5 @@
 {
-  "name": "legitimate",
+  "name": "legitify",
   "version": "0.0.1",
   "description": "Schema validation",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeisureLink/legitimate.git"
+    "url": "git+https://github.com/LeisureLink/legitify.git"
   },
   "keywords": [
     "Schema",
@@ -21,11 +21,12 @@
   "author": "Colten Rouska",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LeisureLink/legitimate/issues"
+    "url": "https://github.com/LeisureLink/legitify/issues"
   },
-  "homepage": "https://github.com/LeisureLink/legitimate#readme",
+  "homepage": "https://github.com/LeisureLink/legitify#readme",
   "dependencies": {
     "bluebird": "^2.9.34",
+    "fluent-assert": "^0.1.0",
     "joi": "^6.6.1"
   },
   "devDependencies": {
