@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/LeisureLink/legitimate#readme",
   "dependencies": {
+    "bluebird": "^2.9.34",
     "joi": "^6.6.1"
   },
   "devDependencies": {
