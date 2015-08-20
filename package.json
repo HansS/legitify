@@ -1,0 +1,34 @@
+{
+  "name": "legitimate",
+  "version": "0.0.1",
+  "description": "Schema validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeisureLink/legitimate.git"
+  },
+  "keywords": [
+    "Schema",
+    "Validation"
+  ],
+  "author": "Colten Rouska",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeisureLink/legitimate/issues"
+  },
+  "homepage": "https://github.com/LeisureLink/legitimate#readme",
+  "dependencies": {
+    "joi": "^6.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "eslint": "^1.2.0",
+    "eslint-watch": "^1.2.5",
+    "istanbul": "^0.3.18",
+    "mocha": "^2.2.5",
+    "sinon": "^1.16.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "env":{
+    "node": true,
+    "amd": true
+  },
+  "rules":{
+    "quotes": [2, "single", "avoid-escape"],
+    "no-use-before-define": 2,
+    "object-curly-spacing": [2, "always"],
+    "space-in-parens": [2, "never"],
+    "strict": [2, "global"]
+  }
+}
