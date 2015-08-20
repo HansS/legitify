@@ -8,7 +8,7 @@
     "lint": "esw --quiet",
     "lw": "esw --quiet -w",
     "ci": "npm run lint && npm run coverage",
-    "coverage": "instanbul cover node_modules/.bin/_mocha -- --recursive test/*"
+    "coverage": "istanbul cover node_modules/.bin/_mocha -- --recursive test/*"
   },
   "repository": {
     "type": "git",
