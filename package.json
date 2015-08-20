@@ -23,11 +23,14 @@
   "bugs": {
     "url": "https://github.com/rizowski/legitify/issues"
   },
+  "engine": "node >=0.12",
+  "peerDependencies":{
+    "joi": ">=6.0.0 <7.0.0"
+  },
   "homepage": "https://github.com/rizowski/legitify#readme",
   "dependencies": {
     "bluebird": "^2.9.34",
-    "fluent-assert": "^0.1.0",
-    "joi": "^6.6.1"
+    "fluent-assert": "^0.1.0"
   },
   "devDependencies": {
     "chai": "^3.2.0",
