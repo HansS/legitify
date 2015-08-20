@@ -7,18 +7,23 @@
 npm install --save legitify
 ```
 
+### Code
+
 ```
-  var appleSchema = require('path/to/apple/schema');
   var legit = require('legitify');
+  var appleSchema = require('path/to/apple/schema');
+
   ...
+  // register the schema with legitify
   legit.register('apple', appleSchema);
+
   ...
+
   legit.validate('apple', objectToValidate)
     .then(function(value){
       // proceed to use value
     })
-    .error(function(error, object){
-      // filtered error
-      // object passed in
+    .error(function(error){
+      // determine what to do
     });
 ```
