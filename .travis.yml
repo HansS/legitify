@@ -4,6 +4,6 @@ node_js:
   - "2.5"
   - "3.0"
 before_install:
-  - npm install joi@6
+  - npm install joi@6 --save
 script:
   - npm run ci
