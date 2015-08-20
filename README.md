@@ -2,6 +2,8 @@
 [![Build Status](https://travis-ci.org/rizowski/legitify.svg)](https://travis-ci.org/rizowski/legitify)
 
 
+Legitify uses Joi schemas to do its validation. More information on how to do that here: [joi npm](https://www.npmjs.com/package/joi)
+
 ## Usage
 ```
 npm install --save legitify
