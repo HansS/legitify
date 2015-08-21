@@ -16,8 +16,14 @@ npm install --save legitify
   var appleSchema = require('path/to/apple/schema');
 
   ...
+
   // register the schema with legitify
   legit.register('apple', appleSchema);
+  // - Or -
+  legit.registerAll({
+    'apple', require('../../apple-schema')
+    'tomato', require('../../tomato-schema')
+    });
 
   ...
 

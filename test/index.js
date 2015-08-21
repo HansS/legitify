@@ -14,11 +14,38 @@ describe('regressions', function(){
   });
 
   describe('registration', function(){
-    it('registers a schema without throwing errors', function(){
+    describe('register', function(){
+      it('registers a schema without throwing errors', function(){
+          expect(function(){
+            legit.register('test', schema);
+          }).to.not.throw();
+      });
+
+      it('throws assertion error on name when no input is entered', function(){
         expect(function(){
-          legit.register('test', schema);
-        }).to.not.throw;
+          legit.register(undefined, schema);
+        }).to.throw(/name/);
+      });
+
+      it('should throw an assertion error on schema if none is provided', function(){
+        expect(function(){
+          legit.register('something', undefined);
+        }).to.throw(/schema/);
+      })
     });
+
+    describe('', function(){
+      it('registers all schemas with the provided name', function(){
+        legit.registerAll({
+          'hello': {},
+          'goodbye': {}
+        });
+        expect(legit.getSchema('hello')).to.be.ok;
+      });
+    });
+
+
+
   });
 
   describe('validation', function(){
