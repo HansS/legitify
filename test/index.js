@@ -43,9 +43,6 @@ describe('regressions', function(){
         expect(legit.getSchema('hello')).to.be.ok;
       });
     });
-
-
-
   });
 
   describe('validation', function(){
