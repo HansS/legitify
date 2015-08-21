@@ -37,10 +37,10 @@ describe('regressions', function(){
     describe('', function(){
       it('registers all schemas with the provided name', function(){
         legit.registerAll({
-          'hello': {},
+          'hello': { greeting: 'says hello' },
           'goodbye': {}
         });
-        expect(legit.getSchema('hello')).to.be.ok;
+        expect(legit.getSchema('hello')).to.have.property('greeting');
       });
     });
   });
